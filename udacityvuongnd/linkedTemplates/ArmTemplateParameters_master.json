@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "udacityvuongnd"
+		},
+		"adls_nycpayroll_accountKey": {
+			"value": ""
+		},
+		"adls_nycpayroll_synapse_accountKey": {
+			"value": ""
+		},
+		"db_nycpayroll_connectionString": {
+			"value": ""
+		},
+		"adls_nycpayroll_properties_typeProperties_url": {
+			"value": "https://udacityvuongnd.dfs.core.windows.net/"
+		},
+		"adls_nycpayroll_synapse_properties_typeProperties_url": {
+			"value": "https://udacityvuongnd2.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

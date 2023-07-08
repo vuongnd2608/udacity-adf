@@ -7,7 +7,7 @@
 				"type": "ExecuteDataFlow",
 				"dependsOn": [
 					{
-						"activity": "Data flow Load Payroll Data into SQL DB",
+						"activity": "Load Payroll Data into SQL DB",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -106,7 +106,7 @@
 				}
 			},
 			{
-				"name": "Data flow Load Payroll Data into SQL DB",
+				"name": "Load Payroll Data into SQL DB",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
